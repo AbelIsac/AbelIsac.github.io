@@ -1,0 +1,108 @@
+/* importando letra desde URL */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    padding: 10px;
+}
+
+/* cambiamos en tipo de fuente */
+
+.fuente1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.fuente2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* agregamos estilos al parrafo */
+/* cursiva */
+.fuente3{
+    font-style: italic;
+}
+
+/* oblicuo */
+.fuente4{
+    font-style: oblique;
+
+}
+
+/* normal */
+.fuente5{
+    font-style: normal;
+
+}
+
+/* negrita */
+.fuente6{
+    font-weight: bold;
+
+}
+
+/* mas negrita */
+.fuente7{
+    font-weight: bolder;
+
+}
+
+/* smallcaps */
+.fuente8{
+    font-variant: small-caps;
+
+}
+/*fuente normal*/
+.fuente9{
+    font-variant: normal;
+
+}
+
+/* tamaño de la fuente */
+.fuente10{
+    font-size: 30px;
+}
+
+/* llamando a las letras descargadas de internet */
+@font-face{
+    font-family: "BebasNeve";
+    src: url(/fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face{
+    font-family: "YoungSerif";
+    src: url(/fonts/YoungSerif-Regular.ttf);
+}
+
+@font-face{
+    font-family: "NeedForSpeed";
+    src: url(/fonts/Need\ For\ Speed/drius.ttf);
+}
+
+@font-face{
+    font-family: "TheInternational";
+    src: url(/fonts/ITCEDSCR.TTF);
+}
+
+
+/* llamando a las letras importadas desde internet y descargadsa */
+/* importada desde internet */
+.fuente11{
+    font-family: 'Roboto Slab';
+}
+
+/* descargadas */
+.fuente12{
+    font-family: 'BebasNeve';
+}
+
+.fuente13{
+    font-family: 'YoungSerif';
+}
+
+.fuente14{
+    font-family: 'NeedForSpeed';
+}
+
+.fuente15{
+    font-family: 'TheInternational';
+}

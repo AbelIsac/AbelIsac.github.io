@@ -1,0 +1,109 @@
+body{
+    background-color: bisque;
+}
+
+
+/* estilos para contenedor */
+.contenedor{
+    width: 1366px;
+    height: 768px;
+    background-color: green;
+}
+
+header{
+    width: 1366px;
+    height: 270px;
+    background-color:yellow ;
+}
+
+nav{
+    width: 200px;
+    height: 453px;
+    background-color: orange;
+
+}
+
+main{
+    width: 951px;
+    height: 453px;
+    background-color: purple;
+    margin-left: 200px;
+    margin-top: -453px;
+}
+
+section{
+    width: 215px;
+    height: 453px;
+    background-color: purple;
+    margin-left: 100px;
+    margin-top: -1710px;
+}
+ 
+.anuncio1{
+    width: 550px;
+    height: 600px;
+    background-color: red;
+}
+
+.anuncio2{
+    width: 550px;
+    height: 600px;
+    background-color: #1BDAF1;
+}
+
+
+
+footer{
+    width: 1366px;
+    height: 45pxpx;
+    background-color: #666666;
+}
+
+ul {
+    /* para que sirva la viñeta */
+    list-style: none;
+    /* asignamos un margen 0 */
+    margin: 0;
+    /* asignamos un espaciado de 0 */
+    padding: 0;
+    /* asignamos el ancho del menu */
+    width: 200px;
+    /* asignamos un color de fondo */
+    background-color: black;
+    /* asignamos un borde */
+    border: 1px solid white;
+}
+
+li a{
+    /* que se vea en bloques */
+    display: block;
+    /* asignamos un color de letra */
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li{
+    /* centramos el texto */
+    text-align: center ;
+    border-bottom: 1px solid white;
+}
+
+/* quitamos el borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+
+/* le asignamos valores cuando este activado */
+li a.active {
+    background-color: red;
+    color: #666666;
+}
+
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    background-color: darkblue;
+    color: yellowgreen;
+}
+
+

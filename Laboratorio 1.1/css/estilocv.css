@@ -1,0 +1,446 @@
+body{
+    width: 1920px;
+    height: 1080px ;
+    background-color: black;
+}
+
+header{
+    width: 576.83px;
+    height: 1080px;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.imgredondo{
+    border-radius: 200%;
+    width: 200px;
+    height: 200px;
+
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.nombre H1 {
+    display: flex;
+   
+    text-align: right;
+    margin-left: 250px;
+    margin-top: -190px;
+    font-family:'Britannic Bold';
+    font-size: 40px;
+    color:white;
+}
+
+@font-face {
+    font-family: 'Britannic Bold';
+    src: url(/img/06126_BRITANIC.ttf);
+}
+
+.nombre h2 {
+    display: flex;
+   
+    text-align: right;
+    margin-left: 250px;
+    margin-top: -35px;
+    font-size: 45px;
+    color: white;
+}
+
+.nombre p{
+    display: flex;
+   
+    text-align: right;
+    margin-left: 250px;
+    margin-top: -30px;
+    font-size: 36px;
+    color: white;
+
+}
+
+.linea img{
+    width: 320px;
+    height: 20px;
+    margin-left: 250px;
+    margin-top: -30px;
+    padding-bottom: 30px ;
+}
+
+.acercademi h2{
+    display: flex;
+    text-align: left;
+    margin-left: 70px;
+    margin-top: -750px;
+    font-family:'Segoe UI Semibold';
+    font-size: 36px;
+    color:white;
+
+}
+
+.acercademi p{
+    max-width: 480px;
+    color: white;
+    font-family: 'calibri';
+    margin-left: 70px;
+    font-size: 22px;
+}
+
+.lineavertical img {
+    
+    width: 10px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: -255px;
+    padding-bottom: 30px ;
+}
+
+.contacto h2{
+    
+    margin-left: 50px;
+    margin-top: -10px;
+    font-family:'Segoe UI Semibold';
+    font-size: 36px;
+    color:white;
+
+}
+
+.logo1{
+    display: flex;
+    width: 47px;
+    height: 42px;
+    padding-top: 0px;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+.logo2{
+    display: flex;
+    width: 47px;
+    height: 42px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.logo3{
+    display: flex;
+    width: 47px;
+    height: 42px;
+    padding-top: 10px;
+    margin-left: 50px;
+}
+
+.contacto1 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 16px;
+}
+
+.contacto2 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 16px;
+}
+
+.contacto3 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 16px;
+}
+
+
+.social h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 36px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.social1 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 16px;
+}
+
+.social2 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 16px;
+}
+
+.social3 {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 110px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 16px;
+}
+
+.contenedor2{
+    width: 1343.17px;
+    height: 1100px;
+    background-color: white;
+    margin-left: 576.83px;
+    margin-top: -1080px;
+}
+
+.experienciapro h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 37px;
+    color: black;
+    padding-top: 30px;
+    margin-left: 100px;
+
+    
+}
+
+.experienciapro li{
+    max-width: 480px;
+    color: black;
+    font-family: 'calibri';
+    margin-left: 80px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.formacion h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 37px;
+    color: black;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+.formacion p{
+    max-width: 480px;
+    color: black;
+    font-family: 'calibri';
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.habilidades h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 37px;
+    color: black;
+    padding-top: 30px;
+    margin-left: 100px;
+    margin-top: -30px;
+}
+
+.habilidades li{
+    max-width: 480px;
+    color: black;
+    font-family: 'calibri';
+    margin-left: 80px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 18px;
+    
+}
+
+.objetivospro h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 37px;
+    color: black;
+    padding-top: 70px;
+    margin-left: 750px;
+    margin-top: -680px;
+}
+
+.objetivospro p{
+    max-width: 480px;
+    color: black;
+    font-family: 'calibri';
+    margin-left: 750px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.proyectorele h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 37px;
+    color: black;
+    padding-top: 30px;
+    margin-left: 750px;
+    margin-top: 0px;
+}
+
+.proyectorele li{
+     max-width: 480px;
+    color: black;
+    font-family: 'calibri';
+    margin-left: 730px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+.cursosycerti h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 37px;
+    color: black;
+    padding-top: 20px;
+    margin-left: 750px;
+    margin-top: 0px;
+}
+
+.cursosycerti li{
+    max-width: 480px;
+    color: black;
+    font-family: 'calibri';
+    margin-left: 730px;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    font-size: 18px;
+}
+
+footer{
+    width: 1280px;
+    height: 420px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 70px;
+}
+
+.habilidadessoftware h2{
+    font-family: 'Segoe UI SemiBold';
+    font-size: 30px;
+    color: white;
+    padding-top: 30px;
+    margin-left: 30px;
+    
+}
+.habilidadessoftware img{
+    width: 175px;
+    height: 170px;
+    margin-left: 50px;
+}
+
+.idiomas h2{
+    font-family: 'Segoe UI Semibold';
+    font-size: 30px;
+    color: white;
+    margin-left: 780px;
+    margin-top: -235px;
+}
+
+
+
+.ingles p {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 795px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 30px;
+}
+
+.español p{
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 795px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 30px;
+}
+
+.frances p {
+    display: flex;
+    justify-content: left;
+    color: white;
+    margin-left: 795px;
+    margin-top: -50px;
+    font-family:'Calibri';
+    font-size: 30px;
+}
+.lineai{
+    width: 100px;
+    height: 30px;
+    margin-left: 900px;
+    padding-top: 15px;
+
+}
+
+.lineae{
+    width: 200px;
+    height: 30px;
+    margin-left: 900px;
+    padding-top: 15px;
+
+}
+
+.lineaf{
+    width: 70px;
+    height: 30px;
+    margin-left: 900px;
+    padding-top: 15px;
+
+}
+
+.habiliequipo h2{
+    font-family: 'Segoe UI SemiBold';
+    font-size: 30px;
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.equipo1 {
+    font-family: 'Segoe UI Semibold';
+    font-size: 24px;
+    color: white;
+    margin-left: 500px;
+    margin-top: -60px;
+}
+
+.equipo2 {
+    font-family: 'Segoe UI Semibold';
+    font-size: 24px;
+    color: white;
+    margin-left: 700px;
+    margin-top: -60px;
+}
+
+.equipo3 {
+    font-family: 'Segoe UI Semibold';
+    font-size: 24px;
+    color: white;
+    margin-left: 900px;
+    margin-top: -60px;
+}
+
+.linea2 {
+    width: 1320px;
+    height: 10px;
+    
+   
+}
+

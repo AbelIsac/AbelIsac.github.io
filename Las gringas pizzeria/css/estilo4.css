@@ -1,0 +1,265 @@
+body{
+    background-color: white;
+}
+
+
+header{
+    width: 1920px;
+    height: 151px;
+    background-color:white;
+    background-image: url(/img/123.png), url(/img/pízzaencabezado.webp), url(/img/pízzaencabezado.webp);  
+    background-position: center, 20%, 80%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+main{
+    width: 1920px;
+    height: 2500px;
+    background-color: white;
+  
+}
+
+.titulo{
+    margin-top: -2450px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+
+}
+.bebida1{
+   margin-left: 300px;
+   margin-top: 100px;
+}
+
+.bebida1 h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bebida1img{
+    margin-left: 650px ;
+    margin-top: -150px;
+    width: 200px;
+    height: 400px;
+}
+
+.bebida2{
+    margin-left: 900px;
+    margin-top: -380px;
+ }
+ 
+ .bebida2 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida2img{
+     margin-left: 1250px ;
+     margin-top: -150px;
+     width: 200px;
+     height: 400px;
+ }
+
+ .bebida3{
+    margin-left: 300px;
+    margin-top: 100px;
+ }
+ 
+ .bebida3 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida3img{
+     margin-left: 650px ;
+     margin-top: -150px;
+     width: 200px;
+     height: 400px;
+ }
+
+ .bebida4{
+    margin-left: 900px;
+    margin-top: -380px;
+ }
+ 
+ .bebida4 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida4img{
+     margin-left: 1250px ;
+     margin-top: -150px;
+     width: 200px;
+     height: 400px;
+ }
+
+ .bebida5{
+    margin-left: 300px;
+    margin-top: 100px;
+ }
+ 
+ .bebida5 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida5img{
+     margin-left: 650px ;
+     margin-top: -150px;
+     width: 200px;
+     height: 400px;
+ }
+
+ .bebida6{
+    margin-left: 900px;
+    margin-top: -380px;
+ }
+ 
+ .bebida6 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida6img{
+     margin-left: 1250px ;
+     margin-top: -150px;
+     width: 200px;
+     height: 400px;
+ }
+
+ .bebida7{
+    margin-left: 300px;
+    margin-top: 100px;
+ }
+ 
+ .bebida7 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida7img{
+     margin-left: 650px ;
+     margin-top: -150px;
+     width: 200px;
+     height: 400px;
+ }
+
+ .bebida8{
+    margin-left: 900px;
+    margin-top: -380px;
+ }
+ 
+ .bebida8 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida8img{
+     margin-left: 1250px ;
+     margin-top: -150px;
+     width: 400px;
+     height: 400px;
+ }
+
+ .bebida9{
+    margin-left: 300px;
+    margin-top: 100px;
+ }
+ 
+ .bebida9 h2{
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .bebida9img{
+     margin-left: 650px ;
+     margin-top: -150px;
+     width: 235px;
+     height: 250px;
+ }
+
+
+ footer{
+    width: 1920px;
+    height: 350px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    text-align: center;      
+}
+
+footer h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+footer p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul{
+    
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+    overflow: hidden;
+    background-color: black;
+    /* asignamos un borde */
+    border: 1px solid #434343;
+}
+
+li a{
+    /* que se vea en bloques */
+    display: block;
+    /* asignamos un color de letra */
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    
+}
+
+li{
+    /* centramos el texto */
+    float: left;
+    
+    text-align: center ;
+    
+}
+    
+
+/* quitamos el borde al ultimo li */
+li:last-child{
+    border-bottom: none;
+}
+
+/* le asignamos valores cuando este activado */
+li a.active {
+    background-color: red;
+    color: #666666;
+}
+
+/* le asignamos un color de fondo y letra cuando seleccionamos */
+li a:hover{
+    background-color: white;
+    color: black;
+}
+
+.banner1{
+    width: 100%;
+    height: 100%;
+    margin: auto; 
+  
+}

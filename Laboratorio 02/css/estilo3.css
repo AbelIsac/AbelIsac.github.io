@@ -1,0 +1,21 @@
+/* llamamos a las clases creadas en el HTML utilizando el punto */
+.titulo{
+    background-color: black;
+    color: white;
+}
+.barra{
+    background-color: bisque;
+
+}
+.subtitulo{
+    background-color: purple;
+    color: aliceblue;
+}
+.parrafo{
+    background-color: brown;
+    color: white;
+}
+.caja1{
+    background-color: yellow;
+    color: black;
+}

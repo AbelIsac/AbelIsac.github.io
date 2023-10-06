@@ -1,0 +1,5 @@
+/* el selector universal aplica el mismo estilo a toda pagina web */
+*{
+    background-color: purple ;
+    color:white 
+}

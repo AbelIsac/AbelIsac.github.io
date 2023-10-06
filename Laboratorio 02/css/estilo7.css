@@ -1,0 +1,15 @@
+/* definimos el ancho y alto de la etiqueta, esto se define con valores numericos expresados en pixeles px 
+width => Ancho y height => Alto*/
+.caja1{
+    width: 800px;
+    
+    background-color: green;
+}
+
+
+.caja2{
+    height: 600px;
+    
+    background-color: red;
+}
+

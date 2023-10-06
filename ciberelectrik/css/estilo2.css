@@ -1,0 +1,94 @@
+
+
+body{
+    background-color: black;
+}
+
+.contenedor{
+    width: 1366px;
+    height: 768px;
+    background-color: darkgreen;
+}
+
+header{
+    width: 1366px;
+    height: 250px;
+    background-color: red;
+}
+
+nav{
+    width: 1366px;
+    height: 50px;
+    background-color: #35B736;
+    border-bottom: 1px solid white;
+
+}
+
+main{
+    width: 1070px;
+    height: 428px;
+    background-color: #1EAAF1;
+}
+
+section{
+    width: 296;
+    height: 428px;
+    background-color: beige;
+    margin-left: 1070px;
+    margin-top: -428px;
+}
+
+.anuncio1{
+    width: 296px;
+    height: 214px;
+    background-color: orange;
+}
+
+.anuncio2{
+    width: 296px;
+    height: 214px;
+    background-color: #9A2FAE;
+}
+
+footer{
+    width: 1366px;
+    height: 40px;
+    background-color: #673FB4;
+}
+
+
+ul{
+   
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid white;
+}
+
+li{
+    float: left;
+    border-right: 1px solid white;
+    
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a.active {
+    background-color: red;
+    color: #666666;
+}
+
+
+li a:hover{
+    background-color: darkblue;
+    color: yellowgreen;
+    }
